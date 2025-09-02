@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+CAP="${1:-5G}"   # default back to 5G
+CONF="/etc/systemd/system/ollama.service.d/limits.conf"
+sudo sed -i "s/^MemoryMax=.*/MemoryMax=${CAP}/" "$CONF"
+sudo systemctl daemon-reload
+sudo systemctl restart ollama
+echo "Ollama MemoryMax set to ${CAP} and restarted."

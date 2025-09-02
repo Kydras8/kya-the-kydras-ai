@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Models / heavy blobs
+*.gguf
+
+# Env & secrets
+*.env
+.env*
+profiles/*.env
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log

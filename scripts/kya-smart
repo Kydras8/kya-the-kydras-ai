@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROMPT="${*:-}"
+[ -n "$PROMPT" ] || { echo "Usage: kya-smart <prompt>"; exit 2; }
+
+try() {
+  local profile="$1"; shift
+  # 60s cap per attempt; grep error text if present
+  if timeout 60s env KYA_PROFILE="$profile" kya chat "$PROMPT" 2>&1 | tee /tmp/kya-smart.out; then
+    if ! grep -q "LLM error" /tmp/kya-smart.out; then
+      exit 0
+    fi
+  fi
+}
+
+# Prefer 14B when it works, otherwise degrade gracefully
+try local-coder14 || try local-coder || try local-lite || { echo "[ERR] All models failed."; exit 1; }

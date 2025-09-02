@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+INSTALL_DIR="/opt/kydras-sysagent"
+export PYTHONPATH="$INSTALL_DIR${PYTHONPATH:+:$PYTHONPATH}"
+exec "$INSTALL_DIR/.venv/bin/python" "$INSTALL_DIR/kya_tray.py"
