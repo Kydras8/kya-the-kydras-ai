@@ -1,3 +1,5 @@
+[![Downloads](https://img.shields.io/github/downloads/Kydras8/kya-the-kydras-ai/total.svg)](https://github.com/Kydras8/kya-the-kydras-ai/releases) [![Downloads@latest](https://img.shields.io/github/downloads/Kydras8/kya-the-kydras-ai/latest/total.svg)](https://github.com/Kydras8/kya-the-kydras-ai/releases/latest)
+
 [![Release](https://img.shields.io/github/v/release/Kydras8/kya-the-kydras-ai?display_name=tag)](https://github.com/Kydras8/kya-the-kydras-ai/releases) [![Issues](https://img.shields.io/github/issues/Kydras8/kya-the-kydras-ai)](https://github.com/Kydras8/kya-the-kydras-ai/issues)
 
 [![lint](https://github.com/Kydras8/kya-the-kydras-ai/actions/workflows/lint.yml/badge.svg)](https://github.com/Kydras8/kya-the-kydras-ai/actions/workflows/lint.yml) [![License: MIT](https://img.shields.io/github/license/Kydras8/kya-the-kydras-ai)](LICENSE) ![Stars](https://img.shields.io/github/stars/Kydras8/kya-the-kydras-ai?style=social)
