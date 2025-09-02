@@ -1,3 +1,5 @@
+[![lint](https://github.com/Kydras8/kya-the-kydras-ai/actions/workflows/lint.yml/badge.svg)](https://github.com/Kydras8/kya-the-kydras-ai/actions/workflows/lint.yml) [![License: MIT](https://img.shields.io/github/license/Kydras8/kya-the-kydras-ai)](LICENSE) ![Stars](https://img.shields.io/github/stars/Kydras8/kya-the-kydras-ai?style=social)
+
 # Kya — the Kydras AI
 
 Helper components and configs for the Kydras System Agent:
