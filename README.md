@@ -1,3 +1,11 @@
+<!-- Kydras Repo Header -->
+<p align="center">
+  <strong>Kydras Systems Inc.</strong><br/>
+  <em>Nothing is off limits.</em>
+</p>
+
+---
+
 [![Downloads](https://img.shields.io/github/downloads/Kydras8/kya-the-kydras-ai/total.svg)](https://github.com/Kydras8/kya-the-kydras-ai/releases) [![Downloads@latest](https://img.shields.io/github/downloads/Kydras8/kya-the-kydras-ai/latest/total.svg)](https://github.com/Kydras8/kya-the-kydras-ai/releases/latest)
 
 [![Release](https://img.shields.io/github/v/release/Kydras8/kya-the-kydras-ai?display_name=tag)](https://github.com/Kydras8/kya-the-kydras-ai/releases) [![Issues](https://img.shields.io/github/issues/Kydras8/kya-the-kydras-ai)](https://github.com/Kydras8/kya-the-kydras-ai/issues)
@@ -18,3 +26,4 @@ Helper components and configs for the Kydras System Agent:
 1) Build 7B alias:  ollama create qwen7b-coder-ctx4k -f Modelfiles/qwen7b-ctx4k.modelfile
 2) (Optional) 14B:  ollama create qwen14b-coder-q4km-ctx4k -f Modelfiles/qwen14b-q4km-ctx4k.modelfile
 3) Copy a profile example to ~/.config/kydras/profiles and edit locally.
+
